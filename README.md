@@ -1,6 +1,6 @@
 # 🛡️ Cyber-Sentry: Real-Time Network Packet Analyzer
 
-**Cyber-Sentry** is a professional cybersecurity tool developed to capture, decode, and analyze live network traffic. Built using Python and the Scapy library, it provides a graphical dashboard to monitor data flow and perform Deep Packet Inspection (DPI).
+**Cyber-Sentry** is a professional cybersecurity tool developed to capture, decode, and analyze live network traffic. Built using Python and the Scapy library, it provides a Command Line Interface(CLI) to monitor real-time data flow and perform Packet Inspection (DPI).
 
 ---
 
@@ -14,14 +14,14 @@
 * **Live Traffic Sniffing:** Captures real-time packets directly from the Network Interface Card (NIC).
 * **Deep Packet Inspection (DPI):** Extracts and displays Source IP, Destination IP, and Protocol types.
 * **Protocol Support:** Specialized analysis for **TCP** and **UDP** traffic.
-* **Graphical User Interface (GUI):** A clean dashboard built with `Tkinter` for easy monitoring.
+* **Real-Time CLI Output:** A clean and structred terminal output for easy monitoring of live packets.
 
 ---
 
 ## 🛠️ Tech Stack
 * **Language:** Python 3.x
 * **Core Engine:** Scapy Library
-* **GUI Framework:** Tkinter
+* **Interface:** Command Line Interface(CLI)
 * **Network Driver:** Npcap (WinPcap compatible)
 
 ---
